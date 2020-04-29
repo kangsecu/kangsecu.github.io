@@ -13,7 +13,7 @@ binary :
 
 
 
-![img](https://k.kakaocdn.net/dn/Qmd27/btqCbUwEpAQ/uAs84B8ONS8Jd1bSLrMgVK/img.png)NX bit , Partial RelRO
+![img](https://k.kakaocdn.net/dn/Qmd27/btqCbUwEpAQ/uAs84B8ONS8Jd1bSLrMgVK/img.png)
 
 
 
