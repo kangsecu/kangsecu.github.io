@@ -20,11 +20,11 @@ library download / pwd : libc-database > $./get
 
 ### 사용법 :
 
-\1. 함수로 libc 파일 찾기 : ./libc-database/find/ [함수이름] [함수주소]
+ 1. 함수로 libc 파일 찾기 : ./libc-database/find/ [함수이름] [함수주소]
 
-\2. 함수 offset 찾기 : ./libc-databse/dump [id] [함수 이름]
+ 2. 함수 offset 찾기 : ./libc-databse/dump [id] [함수 이름]
 
-\3. ./libc-database/find/ [함수이름] [offset 3 bytes]
+ 3. ./libc-database/find/ [함수이름] [offset 3 bytes]
 
 ------
 
