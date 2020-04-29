@@ -1,8 +1,11 @@
-- name: Massachusets Instutite of Technology
-  link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
+- name: Kookmin University,Information Security of Crypto Math
+  date: 2020 -<i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  descr: 정보보안암호수학과 
+  
+- name: 정보보호 영재교육원 해킹추적반
+  date: 2018 -2019
+  descr: 서울여자대학교 정보보호 영재교육원
 
-- name: Harvard
-  link: http://www.harvard.edu/
-  date: 2007 - 2011
+- name: Sunrin Internet Highschool, Information Communication
+  link: http://sunrint.hs.kr/index.do
+  date: 2017 - 2020
