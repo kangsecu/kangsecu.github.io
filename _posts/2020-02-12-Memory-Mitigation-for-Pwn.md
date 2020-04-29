@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "메모리 보호기법(Memory Mitigation) for Pwn"
+excerpt: "Try to know Memory Mitigation & use it~_~"
 date:   2020-02-12
 categories: [system]
 comments: true
