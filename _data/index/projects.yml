@@ -1,5 +1,5 @@
 - name: Printer Hacking
-  descr: "Iot Printer기를 네트워크의 관점에서 취약점 분석 및 보안 방법 보고서 작성"
+  descr: "Iot Printer를 네트워크의 관점에서 취약점 분석 및 보안 방법 보고서 작성"
   
 - name: Web Fuzzer
   descr: "모의해킹 업무시 사용할 웹 퍼저 제작"
