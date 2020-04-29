@@ -1,0 +1,92 @@
+---
+layout: post
+title: "Pwntools 정리 -1 "
+excerpt: "Try to know Pwntools & use it~_~"
+categories: [system]
+comments: true
+---
+
+이번에는 폰툴을 이용하여 페이로드를 작성하면서 뭔가 굉장히 유용한데 가아끔 효율적인걸 까먹어서 그냥 정리하는 글을 작성하려한다.
+
+### 연결
+
+nc를 통해서 연결 : p = remote("접속주소", port)
+
+ssh로 연결 : s = ssh(“사용자이름”, “접속주소”, port=포트번호 , password=”비밀번호”)
+
+local에서 실행 : p = process("파일경로")
+
+### 받기
+
+#### 1. recv(int) 
+
+그냥 int값 만큼 받아온다. ex) int(p.recv(10),16) > 10바이트를 16진수로 읽어오기 주로 주소가 변할 때 출력해주는 주소를 이용하기 위하여 사용한다.
+
+#### 2. recvuntil(str)
+
+이건 뭔가 문자열이 출력된 후에 무언가를 전송해야할 때 해당 문자열을 받을때 사용한다. 무슨 말이냐,,,
+
+what is your name? 뒤에 페이로드를 전송해야 할 경우 p.recvuntil(" what is your name? ")을 해주면 이 뒤에 다음 명령어를 실행한다.
+
+#### 3. recvline()
+
+이름처럼 1줄을 그대로 받아온다. 나는 아직 딱히 사용해본적이 없는 것 같다.
+
+### 보내기
+
+#### 1. sendline()
+
+말그대로 한줄을 보내는 것 .
+페이로드를 다 작성한 후에 전송할때 보통 많이 사용한다.
+
+ex) p.sendline(payload)
+
+### 패킹 & 언패킹
+
+#### 1. p32, p64
+
+주소값을 각각 32비트 , 64비트에 맞게 리틀인디언으로 패킹해준다. 
+
+ex) p32(0x12345678) >" \x78\x56\x34\x12"로 패킹
+
+p32(0x12345678, endian='big')을 하면 빅인디언도 패킹해준다.
+
+#### 2. u32, u64
+
+위와 반대로  각각 32비트 64비트로 언패킹한다.
+
+ex) u32("\x78\x56\x34\x12") > 305419896 (= 0x12345678 )
+
+마찬가지로 u32("\x78\x56\x34\x12", endian = 'big') 하면 빅인디언도 언패킹 해준다.
+
+### 그 외의 것
+
+#### 1. ELF
+
+이번에는 peda의 checksec처럼 해당 바이너리의 보호기법 및 아키텍처 등을 출력해주는 ELF다. 
+
+이를 통해서  ELF파일이나 libc파일을 열어볼 수 있다. 
+
+ex) e = ELF("./test") 
+
+#### 2. PLT , GOT , BSS
+
+PLT와 GOT를 이용하면 해당 함수의 PLT와 GOT주소를 알 수 있다. 
+
+ex)  puts_plt = e.plt["puts"] , puts_got = e.got["puts"]  , bss = e.bss()
+
+#### 3.symbols
+
+symbols을 이용하면 해당 함수나 변수의 주소를  알 수 있다.
+
+ex) symbols = e.symbols
+
+#### 4. interactive()
+
+가장 중요한 것 중 하나로, 위의 페이로드를 이용하여 쉘을 딴 후에 이를 이용하여 쉘을 취득한 권한으로 플래그를 확인할 수 있다.
+
+ex) p.interactive()
+
+ 
+
+앞으로 ROP를 추가할 예정이다. + 추가적인 팁들도
