@@ -17,7 +17,7 @@ binay :
 
 
 
-![img](https://k.kakaocdn.net/dn/ca20p9/btqCAP8j4mh/niK9o76AvgHidgKihHxvwK/img.png)NX , Partial RelRo
+![img](https://k.kakaocdn.net/dn/ca20p9/btqCAP8j4mh/niK9o76AvgHidgKihHxvwK/img.png)
 
 
 
@@ -27,7 +27,7 @@ main.c :
 
 
 
-![img](https://k.kakaocdn.net/dn/byzezV/btqCtYfldoP/kzCaIlQmKLWP3KTTSC9PZ1/img.png)gets말고는 볼게 없다.
+![img](https://k.kakaocdn.net/dn/byzezV/btqCtYfldoP/kzCaIlQmKLWP3KTTSC9PZ1/img.png)
 
 
 
@@ -35,7 +35,7 @@ get_flag :
 
 
 
-![img](https://k.kakaocdn.net/dn/zGFKs/btqCuYMS5ZG/HBgMEz6nLKTuUGw2n9XMB1/img.png)0xDEADBEEF
+![img](https://k.kakaocdn.net/dn/zGFKs/btqCuYMS5ZG/HBgMEz6nLKTuUGw2n9XMB1/img.png)
 
 
 
