@@ -15,7 +15,7 @@ binary :
 
 
 
-![img](https://k.kakaocdn.net/dn/oXm1W/btqCDlMOSw4/c1kRzojKAmp5ik7TtPv6H0/img.png)Nx, Full RelRo
+![img](https://k.kakaocdn.net/dn/oXm1W/btqCDlMOSw4/c1kRzojKAmp5ik7TtPv6H0/img.png)
 
 
 
@@ -23,7 +23,7 @@ main.c :
 
 
 
-![img](https://k.kakaocdn.net/dn/KHZ4H/btqCDk1qOon/AtKqNRDZICk6WNNbWrJcFK/img.png)scanf에서 bof발생
+![img](https://k.kakaocdn.net/dn/KHZ4H/btqCDk1qOon/AtKqNRDZICk6WNNbWrJcFK/img.png)
 
 
 
@@ -31,7 +31,7 @@ callmemaybe.c :
 
 
 
-![img](https://k.kakaocdn.net/dn/bRxCZM/btqCAOIXoe4/pW7k3nVK6MdZJ3YQIwMh31/img.png)이거 호출
+![img](https://k.kakaocdn.net/dn/bRxCZM/btqCAOIXoe4/pW7k3nVK6MdZJ3YQIwMh31/img.png)
 
 
 
@@ -39,7 +39,7 @@ exploit :
 
 
 
-![img](https://k.kakaocdn.net/dn/bS8qKa/btqCB8714Wo/2gv0CfWSjt3x0MlN0IDki1/img.png)ez
+![img](https://k.kakaocdn.net/dn/bS8qKa/btqCB8714Wo/2gv0CfWSjt3x0MlN0IDki1/img.png)
 
 
 
@@ -59,7 +59,7 @@ main.c :
 
 
 
-![img](https://k.kakaocdn.net/dn/tTPQk/btqCynlgyRK/OkZTUKyVjeHAdwAIEXNlkk/img.png)gets에서 bof발생
+![img](https://k.kakaocdn.net/dn/tTPQk/btqCynlgyRK/OkZTUKyVjeHAdwAIEXNlkk/img.png)
 
 
 
@@ -67,7 +67,7 @@ exploit :
 
 
 
-![img](https://k.kakaocdn.net/dn/KQ0Pc/btqCB8NIHai/os8zobshVkQKiDkr3SqiAK/img.png)ez
+![img](https://k.kakaocdn.net/dn/KQ0Pc/btqCB8NIHai/os8zobshVkQKiDkr3SqiAK/img.png)
 
 
 
@@ -79,7 +79,7 @@ binary :
 
 
 
-![img](https://k.kakaocdn.net/dn/sGDiX/btqCclneS2f/lARKy0VCztsaXoityNWjK1/img.png)Parial RelRO
+![img](https://k.kakaocdn.net/dn/sGDiX/btqCclneS2f/lARKy0VCztsaXoityNWjK1/img.png)
 
 
 
@@ -87,7 +87,7 @@ main :
 
 
 
-![img](https://k.kakaocdn.net/dn/b1rexn/btqCafVTALE/jSdXHmtHQ8nxZwvdKKXr41/img.png)main func
+![img](https://k.kakaocdn.net/dn/b1rexn/btqCafVTALE/jSdXHmtHQ8nxZwvdKKXr41/img.png)
 
 
 
@@ -99,7 +99,7 @@ shellcode(25) + dummy(115) + ret_addr
 
 
 
-![img](https://k.kakaocdn.net/dn/d2xqrq/btqCbTR7ZzO/r1LQFrTrqXvOu1VNsRqAiK/img.png)Simplebof2ex.py
+![img](https://k.kakaocdn.net/dn/d2xqrq/btqCbTR7ZzO/r1LQFrTrqXvOu1VNsRqAiK/img.png)
 
 
 
@@ -109,7 +109,7 @@ binary  :
 
 
 
-![img](https://k.kakaocdn.net/dn/kIu1k/btqCagtCka7/WzuXMt8TpmWtljErLpAPik/img.png)NX, PIE , Full RelRO
+![img](https://k.kakaocdn.net/dn/kIu1k/btqCagtCka7/WzuXMt8TpmWtljErLpAPik/img.png)
 
 
 
@@ -117,7 +117,7 @@ main :
 
 
 
-![img](https://k.kakaocdn.net/dn/B1Y6g/btqCafO5MXw/kcTeSYr0zEdBChkbe9iGQK/img.png)main func
+![img](https://k.kakaocdn.net/dn/B1Y6g/btqCafO5MXw/kcTeSYr0zEdBChkbe9iGQK/img.png)
 
 
 
@@ -125,7 +125,7 @@ select_func :
 
 
 
-![img](https://k.kakaocdn.net/dn/Yh5pf/btqCaeQbZsR/4yHcOLxgPKyTDkeISFqKxK/img.png)select_func
+![img](https://k.kakaocdn.net/dn/Yh5pf/btqCaeQbZsR/4yHcOLxgPKyTDkeISFqKxK/img.png)
 
 
 
@@ -133,7 +133,7 @@ print_flag :
 
 
 
-![img](https://k.kakaocdn.net/dn/52kCT/btqCcku8r9B/ZzltVv3UKJ5Lo5psLDDgX0/img.png)print_flag 이름만 들어도 매력적인 함수
+![img](https://k.kakaocdn.net/dn/52kCT/btqCcku8r9B/ZzltVv3UKJ5Lo5psLDDgX0/img.png)
 
 
 
@@ -149,18 +149,8 @@ dummy(30) + print_falg_addr
 
 
 
-![img](https://k.kakaocdn.net/dn/ecKPOn/btqCafn0GF5/aYkRxvpWzylOEFnkM1nZxK/img.png)offsetex.py
+![img](https://k.kakaocdn.net/dn/ecKPOn/btqCafn0GF5/aYkRxvpWzylOEFnkM1nZxK/img.png)
 
 
 
 해결 한 후, 확인하기 위하여 이것저것 봤는데 보통은 strncpy함수에서 src의 1byte만 덮을 수 있어서 31바이트중에 dummy(30) + "\xd8"로 하는 풀이들도 봤는데 그게 더 현명한 것 같다,,,
-
-좋아요공감
-
-공유하기
-
-통계
-
-글 요소
-
-- 
