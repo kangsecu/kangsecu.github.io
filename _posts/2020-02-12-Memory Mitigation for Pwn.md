@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "메모리 보호기법(Memory Mitigation) for Pwn"
+date:   2020-02-17 15:07:19
+categories: [system]
+comments: false
+---
 <h1>메모리 보호기법(Memory Mitigation) for Pwn</h1>
 
 메모리 보호기법들을 공부중이다.. 문제풀이 하면서는 아직 NX bit , ASLR, stack canary 이 정도밖에 겪어보지 못했다. 그래서 그때마다 보호기법들 설명이랑 바이패스 등을 공부해본 내용을 여기에 정리하려한다. 그때 그때 공부하면서 정리할거라 처음엔 내용이 하찮을 수 있다.
