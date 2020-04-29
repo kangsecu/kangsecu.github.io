@@ -21,7 +21,7 @@ main :
 
 
 
-![img](https://k.kakaocdn.net/dn/deHnH7/btqCcAYMczl/ctcgj8WsHcWLvaAnscOCu1/img.png)main func
+![img](https://k.kakaocdn.net/dn/deHnH7/btqCcAYMczl/ctcgj8WsHcWLvaAnscOCu1/img.png)
 
 
 
@@ -31,7 +31,7 @@ payload :
 
 
 
-![img](https://k.kakaocdn.net/dn/qDDSo/btqCbhyTomw/EZbGrjMkM9azK5HbJQp941/img.png)bof1ex.py
+![img](https://k.kakaocdn.net/dn/qDDSo/btqCbhyTomw/EZbGrjMkM9azK5HbJQp941/img.png)
 
 
 
@@ -41,7 +41,7 @@ binary :
 
 
 
-![img](https://k.kakaocdn.net/dn/GwpYi/btqCaSzsjbw/WWGUvbCmAgjx6lRjRmLoB1/img.png)1과 동일
+![img](https://k.kakaocdn.net/dn/GwpYi/btqCaSzsjbw/WWGUvbCmAgjx6lRjRmLoB1/img.png)
 
 
 
@@ -51,7 +51,7 @@ main :
 
 
 
-![img](https://k.kakaocdn.net/dn/dIpOaN/btqCevvsn1n/oLXo7yUcHyI6JaAL66K911/img.png)main func
+![img](https://k.kakaocdn.net/dn/dIpOaN/btqCevvsn1n/oLXo7yUcHyI6JaAL66K911/img.png)
 
 
 
@@ -69,7 +69,7 @@ binary :
 
 
 
-![img](https://k.kakaocdn.net/dn/baYotp/btqCckaM97S/RTfbntEvGEmkFEqlcRdJ1K/img.png)Partial RelRO
+![img](https://k.kakaocdn.net/dn/baYotp/btqCckaM97S/RTfbntEvGEmkFEqlcRdJ1K/img.png)
 
 
 
@@ -77,7 +77,7 @@ main :
 
 
 
-![img](https://k.kakaocdn.net/dn/EuAcJ/btqCeu4n4eX/r1S4IRCEewUVDsznAkHxt1/img.png)사실 main이 볼게 없다.
+![img](https://k.kakaocdn.net/dn/EuAcJ/btqCeu4n4eX/r1S4IRCEewUVDsznAkHxt1/img.png)
 
 
 
@@ -85,7 +85,7 @@ vuln :
 
 
 
-![img](https://k.kakaocdn.net/dn/cG6XkO/btqCeva9EXE/IRiXjpvCANw7Nkbcgxi5j1/img.png)vuln func
+![img](https://k.kakaocdn.net/dn/cG6XkO/btqCeva9EXE/IRiXjpvCANw7Nkbcgxi5j1/img.png)
 
 
 
@@ -95,7 +95,7 @@ flag :
 
 
 
-![img](https://k.kakaocdn.net/dn/ds5pn8/btqCd0CsBqI/5koJMr7OJrFztYAXlYK4O0/img.png)누가 봐도 수상
+![img](https://k.kakaocdn.net/dn/ds5pn8/btqCd0CsBqI/5koJMr7OJrFztYAXlYK4O0/img.png)
 
 
 
@@ -109,7 +109,7 @@ binary :
 
 
 
-![img](https://k.kakaocdn.net/dn/eskYay/btqCcCI4yQW/aRlrsLZGiuk8LQwc15sufK/img.png)Partial RelRO
+![img](https://k.kakaocdn.net/dn/eskYay/btqCcCI4yQW/aRlrsLZGiuk8LQwc15sufK/img.png)
 
 
 
@@ -117,7 +117,7 @@ main :
 
 
 
-![img](https://k.kakaocdn.net/dn/rwwkC/btqCeuQQGds/LArvHfcRZx4rJq6MWvOg51/img.png)main func
+![img](https://k.kakaocdn.net/dn/rwwkC/btqCeuQQGds/LArvHfcRZx4rJq6MWvOg51/img.png)
 
 
 
@@ -129,7 +129,7 @@ dummy(13) + shellcode(24) + dummy(13)
 
 
 
-![img](https://k.kakaocdn.net/dn/umjbX/btqCd1g4akZ/kXPcwTFFv6qRTbVRqzpNWk/img.png)prob1ex.py
+![img](https://k.kakaocdn.net/dn/umjbX/btqCd1g4akZ/kXPcwTFFv6qRTbVRqzpNWk/img.png)
 
 
 
