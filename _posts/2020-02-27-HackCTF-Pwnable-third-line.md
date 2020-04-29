@@ -15,7 +15,7 @@ binary :
 
 
 
-![img](https://k.kakaocdn.net/dn/xwtER/btqCpQmF5ON/51YHdf8J6ql75AwsmC2SrK/img.png)문제 이름답게 pie,ㅋㅋㅋ
+![img](https://k.kakaocdn.net/dn/xwtER/btqCpQmF5ON/51YHdf8J6ql75AwsmC2SrK/img.png)
 
 
 
@@ -25,7 +25,7 @@ welcome :
 
 
 
-![img](https://k.kakaocdn.net/dn/ZZEer/btqCrkOkBmO/qv3ckGnT0H8wKqBhcF4oW1/img.png)welcome의 주소를 출력
+![img](https://k.kakaocdn.net/dn/ZZEer/btqCrkOkBmO/qv3ckGnT0H8wKqBhcF4oW1/img.png)
 
 
 
@@ -33,7 +33,7 @@ j0n9hyun :
 
 
 
-![img](https://k.kakaocdn.net/dn/r3NUG/btqClzfaKWO/FKH4RafCdOynzsnupWlXJk/img.png)flag를 출력한다.
+![img](https://k.kakaocdn.net/dn/r3NUG/btqClzfaKWO/FKH4RafCdOynzsnupWlXJk/img.png)
 
 
 
@@ -43,7 +43,7 @@ exploit :
 
 
 
-![img](https://k.kakaocdn.net/dn/zF05n/btqCoQtEFi3/a7948tzPFCn5LOmunAiyJk/img.png)bof를 하는데 필요한건 따로 구했다.
+![img](https://k.kakaocdn.net/dn/zF05n/btqCoQtEFi3/a7948tzPFCn5LOmunAiyJk/img.png)
 
 
 
@@ -61,7 +61,7 @@ binary :
 
 
 
-![img](https://k.kakaocdn.net/dn/cOKVh6/btqCpPPBC1q/vvPBr5LxGvLC209knD67dk/img.png)NX , partial Relro 
+![img](https://k.kakaocdn.net/dn/cOKVh6/btqCpPPBC1q/vvPBr5LxGvLC209knD67dk/img.png)
 
 
 
@@ -71,7 +71,7 @@ main :
 
 
 
-![img](https://k.kakaocdn.net/dn/bQGDw4/btqCl897IGA/Tw3yQkwUhwEhQKKVc4ocnK/img.png)option 5
+![img](https://k.kakaocdn.net/dn/bQGDw4/btqCl897IGA/Tw3yQkwUhwEhQKKVc4ocnK/img.png)
 
 
 
@@ -81,7 +81,7 @@ exploit :
 
 
 
-![img](https://k.kakaocdn.net/dn/CjmBo/btqCoRz3mFo/AgYuKcOi360xn4TCWIPQ4k/img.png)ex.py
+![img](https://k.kakaocdn.net/dn/CjmBo/btqCoRz3mFo/AgYuKcOi360xn4TCWIPQ4k/img.png)
 
 
 
@@ -97,7 +97,7 @@ binary :
 
 
 
-![img](https://k.kakaocdn.net/dn/b3vZYf/btqCz6b8mpY/aCZHyPrl5EQkc3VwvoTM50/img.png)Nx, Partial Relro
+![img](https://k.kakaocdn.net/dn/b3vZYf/btqCz6b8mpY/aCZHyPrl5EQkc3VwvoTM50/img.png)
 
 
 
@@ -105,7 +105,7 @@ vuln.c :
 
 
 
-![img](https://k.kakaocdn.net/dn/bfSscm/btqCDkmRRvA/hEAPZFS5lmICZucelbVW50/img.png)32개 입력받고 I를 you로 replace
+![img](https://k.kakaocdn.net/dn/bfSscm/btqCDkmRRvA/hEAPZFS5lmICZucelbVW50/img.png)
 
 
 
@@ -113,7 +113,7 @@ get_flag.c :
 
 
 
-![img](https://k.kakaocdn.net/dn/tckjH/btqCy5xVsAF/0va1AN17FlAnv6krcHD4x0/img.png)이거 호출하자
+![img](https://k.kakaocdn.net/dn/tckjH/btqCy5xVsAF/0va1AN17FlAnv6krcHD4x0/img.png)
 
 
 
@@ -121,7 +121,7 @@ exploit :
 
 
 
-![img](https://k.kakaocdn.net/dn/o3Hc8/btqCB8NKfeE/PMh4UbfWOkK3MGTprFB2E1/img.png)ez
+![img](https://k.kakaocdn.net/dn/o3Hc8/btqCB8NKfeE/PMh4UbfWOkK3MGTprFB2E1/img.png)
 
 
 
