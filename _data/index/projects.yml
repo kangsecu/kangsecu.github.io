@@ -1,4 +1,15 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+- name: [Network]Printer Hacking
+  descr: "Iot Printer기를 네트워크의 관점에서 취약점 분석 및 보안 방법 보고서 작성"
+  image: pong.jpg
+  url: https://kangsecu.tistory.com/46
+
+- name: [Development]NND LMS Project
+  descr: "N0Named팀에서 팀원들과 함께 침해사고대응과 실무 보안 훈련을 위한 교육플랫폼 제작"
+
+- name: [Service]N0Named Wargame
+  descr: "N0Named팀에서 팀원들과 함께 보안문제를 제작 및 사이트 업로드"
+  url: http://no-named.kr
+  
+- name: [Web Hacking]Web Fuzzer
+  descr: "모의해킹 업무시 사용할 웹 퍼저 제작"
+  
