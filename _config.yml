@@ -6,6 +6,7 @@
 title: Leonids
 email:
 description: A simple and awesome blog theme powered by jekyll.
+remote_theme : renyuanz/leonids
 url: http://kangsecu.github.io# the base hostname & protocol for your site
 baseurl:
 keywords: ["blog", "jekyll"]
