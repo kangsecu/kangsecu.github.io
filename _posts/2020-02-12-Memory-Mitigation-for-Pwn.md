@@ -13,6 +13,15 @@ comments: true
 
 <hr>
 
+
+
+
+
+
+
+
+
+
 ### 1. ASLR
 
 ASLR(Address Space Layout Randomization)이다. 아마 가장 많이 듣는 보호기법중 하나가 아닐까 생각한다. 대충 이름에서 알 수 있듯이 익스를 하기 어렵게 스택이나 힙 등의 주소를 랜더마이징해서 실행시 마다 주소가 바뀌게 하는 기법이다. 
