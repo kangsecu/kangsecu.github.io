@@ -6,7 +6,8 @@
 title: Leonids
 email:
 description: A simple and awesome blog theme powered by jekyll.
-url: # the base hostname & protocol for your site
+url: http://kangsecu.github.io# the base hostname & protocol for your site
+baseurl:
 keywords: ["blog", "jekyll"]
 
 #
