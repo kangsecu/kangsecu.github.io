@@ -1,6 +1,5 @@
 - name: [Network]Printer Hacking
   descr: "Iot Printer기를 네트워크의 관점에서 취약점 분석 및 보안 방법 보고서 작성"
-  image:
   url: https://kangsecu.tistory.com/46
   
 - name: [Web Hacking]Web Fuzzer
