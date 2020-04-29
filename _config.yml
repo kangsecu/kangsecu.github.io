@@ -4,9 +4,9 @@
 ####################################
 #
 remote_theme : renyuanz/leonids
-title: Leonids
+title: Kangsecu's Blog
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: Kangsecu's Security ill
 url: https://kangsecu.github.io # the base hostname & protocol for your site
 baseurl : 
 keywords: ["blog", "jekyll"]
