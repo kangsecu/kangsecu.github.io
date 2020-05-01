@@ -3,12 +3,15 @@
   
 - name: Web Fuzzer
   descr: "모의해킹 업무시 사용할 웹 퍼저 제작"
-
-- name: NND CERT-MONITORING LMS Project
-  descr: "N0Named팀에서 팀원들과 함께 침해사고대응과 실무 보안 훈련을 위한 교육플랫폼 제작"
+  
+- name: php core analysis
+  descr: php언어의 core 엔진을 분석 및 보고서 작성
+  
+- name: 모의 침투 사이트 제작
+  descr: 개인 웹 공부용으로 모의 침투 사이트 제작 및 취약점 분석
 
 - name: N0Named Wargame
-  descr: "N0Named팀에서 팀원들과 함께 보안문제를 제작 및 사이트 업로드"
+  descr: "N0Named팀에서  보안문제를 제작 및 사이트 업로드"
   website: http://no-named.kr
  
   
