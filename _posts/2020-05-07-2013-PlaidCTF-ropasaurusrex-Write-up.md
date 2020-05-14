@@ -13,11 +13,11 @@ comments: true
 
 1. binary
 
-![image-20200515044725964](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200515044725964.png)
+![ropsau1.png](/img/ropsau1.png)
 
 2. code
 
-![image-20200515044806221](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200515044806221.png)
+![ropsau2.png](/img/ropsau2.png)
 
 심볼이 없어서 함수명이 저렇게 출력된다. return을 하면서 read하는걸 이용하여 공격하면 될 것 같다.
 
@@ -38,11 +38,11 @@ read_offset = s.symbols['read']
 
 gadget은 objdump를 사용했다.
 
-![image-20200515045306690](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200515045306690.png)
+![ropsau3.png](/img/ropsau3.png)
 
 bss영역 주소는 readelf를 사용했다.
 
-![image-20200515045246046](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200515045246046.png)
+![ropsau4.png](/img/ropsau4.png)
 
 4. exploit
 
@@ -96,6 +96,6 @@ p.interactive()
 
 나만 그런진 모르겠는데 문제 아카이브를 받았을때 libc정보가 없었다. 그래서 libc-database를 이용하여 해당 libc를 구해서 풀었다. 
 
-![image-20200515044617085](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200515044617085.png)
+![ropsau5.png](/img/ropsau5.png)
 
 다음엔 원샷을 이용하여 해결하는 방법도 해보고싶다. 
