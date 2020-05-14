@@ -3,7 +3,7 @@ layout: post
 title: "2018 ASIS CTF Write Up"
 excerpt: "너무너무 어렵다."
 date: 2018-05-03
-categories: [Web]
+categories: [Web,ctf]
 comments: true 
 ---
 
