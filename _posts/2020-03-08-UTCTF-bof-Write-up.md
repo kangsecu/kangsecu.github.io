@@ -3,7 +3,7 @@ layout: post
 title: "2020 UTCTF bof * Write up"
 excerpt: "굉장히 간단했던 문제"
 date: 2020-03-08
-categories: [system]
+categories: [system, ctf]
 comments: true 
 ---
 
