@@ -2,7 +2,7 @@
 layout: post
 title: "2018 Sunshine CTF Write up"
 excerpt: "웹,,, 뭘까,,,"
-categories: [Web]
+categories: [Web,ctf]
 comments: true
 ---
 
