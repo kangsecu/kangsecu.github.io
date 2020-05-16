@@ -13,17 +13,17 @@ comments: true
 
 1. binary :
 
-![image-20200516135840751](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200516135840751.png)
+![bas1](/img/bas1.png)
 
 2. code :
 
-![image-20200516135919726](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200516135919726.png)
+![bas2](/img/bas2.png)
 
 3. gadget :
 
-![image-20200516140056317](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200516140056317.png)
+![bas3](/img/bas3.png)
 
-![image-20200516140143442](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200516140143442.png)
+![bas4](/img/bas4.png)
 
 위에는 bss를 입혀주기 위한 pr이고 밑에는 write나 read를 위한 pppr이다.
 
@@ -92,6 +92,5 @@ p.interactive()
 
 
 p. s
-
 64bit rop를 할때는 plt를 밑에다 넣어줘야함. 
 
