@@ -9,10 +9,9 @@ comments: true
 
 
 
-<h3>1. Poet
+### 1. Poet
 
 binary :
-
 
 
 ![img](https://k.kakaocdn.net/dn/cjadyR/btqDNmYDU83/ikPmyIZcPjEcsrtLP4lmp1/img.png)
@@ -61,7 +60,7 @@ exploit :
 
 간단하게 처음에 아무거나 입력하고 두번째에서 author을 물을때 값을 넘겼다. 
 
-<h3> 2. 1996
+### 2. 1996
 
 binary :
 
