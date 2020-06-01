@@ -15,19 +15,19 @@ comments: true
 
 binary :
 
-![but1](img/but1.png)
+![but1](/img/but1.png)
 
 stack canary가 적용되어 있으며, amd64 아키텍처이다. (페이로드에서 이거 설정안해서 계속 못풀었다.)
 
 main.c :
 
-![but2](img/but2.png)
+![but2](/img/but2.png)
 
 코드를 보면 fgets로 50byte를 입력받고, strtol함수로 정수값으로 전환 > shift 연산자를 이용해서 v4의 마지막 3비트가 right shift된다. 그리고 mprotect가 있는데 처음에는 v7의 권한을 rwx로 주었다가 이후엔 r-x로 바꾼다. 
 
 exploit vector : 
 
-![but3](img/but3.png)
+![but3](/img/but3.png)
 
 이 부분이 중요한 것 같다. 에필로그 부분인데 +216에서 add rsp,0x48을 수정하면 ret를 가지고 놀 것  같다. 
 
