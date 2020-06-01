@@ -2,7 +2,7 @@
 layout: post
 title: "2016 PlaidCTF butterfly Write up"
 excerpt: "bit flip을 이용한 참신한 문제"
-date: 2020-05-025
+date: 2020-05-25
 categories: [system, ctf]
 comments: true
 ---
