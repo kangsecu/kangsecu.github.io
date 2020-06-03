@@ -41,25 +41,25 @@ read(0,buf,128);
 
 위와 같은 코드가 있을 때,  우리는 SROP를 하기 위해 read에서 bof를 발생 시킨 후 eax를 조작하고 ret addr를 int 0x80으로 넘겨줘야한다.  후에 이를 이용하여 /bin/sh을 실행시킨다. 119개의 문자열을 입력하고 int 0x80으로 ret하면 sigreturn함수가 호출된다. 
 
-![image-20200603000333611](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200603000333611.png)
+![srop1](/img/srop1.png)
 
 우선 read다음으로 breakpoint를 걸고 A를 118개를 넣어본다. 그 후  x/40wx $rsp를 보면 아래같이 A로 가득찬걸 볼 수 있다.
 
-![image-20200603000401980](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200603000401980.png)
+![srop2](/img/srop2.png)
 
 다음으로는  i r 을 통하여 레지스터 값을 본다.
 
-![image-20200603000303886](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200603000303886.png)
+![srop3](/img/srop3.png)
 
 레지스터 값을 보면 rax 레지스터에 0x77이 들어가있는걸 확인할 수 있다. 이  0x77이 바로 sigreturn의 syscall number이다.  이제는 ret addr을 int 0x80 gadget으로 덮어씌우자. 
 
 이제 int 0x80 함수를 보면 아래와 같다.
 
-![image-20200603000441348](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200603000441348.png)
+![srop4](/img/srop4.png)
 
 이제 int80의 주소를 main의 ret addr에 넣을것이다 . gdb에서 set {int}0xffffd1d0=0x08048413를 이용하여 가능하다.
 
-![image-20200603000925112](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200603000925112.png)
+![srop5](/img/srop5.png)
 
 이렇게 잘 덮어씌어진걸 알 수 있다.  이제는 sigreturn를 호출하는 sigcontext.h 구조체를 봐야한다.
 
