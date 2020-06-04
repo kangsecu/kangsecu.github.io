@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "32bit calling convection"
+title: "32bit calling convention"
 excerpt: "Try to know calling convention & use it ~_~"
 categories: [system]
 comments: true 
