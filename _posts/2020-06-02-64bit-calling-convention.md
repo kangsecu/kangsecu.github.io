@@ -1,0 +1,46 @@
+---
+layout: post
+title: "64bit calling convention"
+excerpt: "Try to know calling convention & use it ~_~"
+categories: [system]
+comments: true 
+---
+
+이번엔 64bit 함수 호출 규약에 대하여 알아보자.  그리고 추가로 32bit와의 차이점까지 다뤄볼 생각이다.
+
+### 0x0 Intel Architecture 64 bit / x64  Architecture
+
+64bit는 함수 호출 규약을 하나만 사용한다. 32bit 호출 규약중 하나였던 fastcall을 업그레이드시켜 사용한다.
+
+#### 0x0 Linux(ELF)
+
+리눅스(ELF)의 경우 인자가 정수일 경우는 rdi , rsi, rdx , rcx ,r8, r9로 총 6개의 레지스터를 사용하여 인자를 전달한다. 
+
+또한, 전달해야 할 인자가 7개 이상일 경우에는 스택을 이용하여 right > left로 전달한다. 
+
+인자가 실수일 때는 함수 호출시 XMM0 ~ XMM7까지 총 8개의 레지스터를 순서대로 사용한다.  인자가 9개 이상인 경우는 스택을 이용하여 right > left로 전달한다.
+
+#### 0x1 Window(PE)
+
+윈도우에서는 인자가 정수일 때, 함수 호출 시 rcx, rdx, r8, r9로 4개의 레지스터를 사용하여 인자를 전달한다. 인자가 5개 이상인 경우에는 스택으로 right > left로 전달한다.
+
+인자가 실수인 경우에는 XMM0 ~ XMM3까지 총 4개의 레지스터를 사용하여 전달하고, 인자가 5개 이상인 경우에는 스택을 이용하여 right > left로 전달한다.
+
+#### 0x2 공통점
+
+두 운영체제가 공통적으로 fastcal 방식을 채택하기 때문에 callee에서 스택을 처리한다. 또한 정수일 경우 rdx : rax와 같이 128bit를 반환한다. 실수인 경우에는 XMM1 : XMM0처럼 256bit를 반환한다.
+
+여기서 반환값은 fastcall 함수 호출 규약과 같이 스택을 사용한다.
+
+![image-20200604170745696](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200604170745696.png)
+
+이 이미지는 64bit 멀티코어 os 원리와 구조 책에서 추출한 이미지이다. 기회가 된다면 꼭 읽어보자.  
+
+#### 0x3 32bit와의 차이점
+
+사실 32bit와의 차이점이라고 말하면 별로 할 말이 없는 것 같다. 그냥 32비트는 다양한 호출 규약을 쓰지만 64bit는 System V AMD64 ABI 하나만 사용한다는 점이 있는 것 같고, 더 많은 레지스터를 사용한다는 점.. 정도가 되는 것 같다.
+
+rop를 할 때 32bit에서는 pop 명령어의 피연산자가 중요하지 않지만, 64bit에서는 함수 호출 규약 때문에 ESP 레지스터의 값을 증가하여 연속적으로 함수를 호출 해야하고, 호출할 함수의 전달될 인자값을 레지스터에 저장해야하며 그래서 필요한 가젯을 찾기가 힘들어진다. 64bit에서는 가젯을 이용하여 우선 여러 인자값을 레지스터에 저장하고 함수를 호출해야한다. 
+
+다음에 아예 기법별로 32bit vs 64bit 차이점을 작성해봐야겠다. 
+
