@@ -40,17 +40,17 @@ int main(int argc, char *argv[]){
 
 위의 코드를 보면 main이 caller가 되고 sub는 callee가 된다.  
 
-![image-20200604142801806](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200604142801806.png)
+![con1](/img/con1.png)
 
 위의 코드의 main을 아이다로 확인해보면 파라미터는 스택에 push하여 호출시 전달되고, main이 함수에서 add esp,8으로 스택을 처리한다.  더 자세히 보자. 
 
 push ebp로 ebp를 스택값에 넣고, mov ebp,esp로 esp값을 ebp로 이동시킨다.  그 후 push 1,2를 통해서 두개의 파라미터를 역순으로 넣는다. 다음으로 call sub로 sub함수를 호출한다. 
 
-![image-20200604143027405](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200604143027405.png)
+![con2](/img/con2.png)
 
 이제 sub함수를 보자. push ebp로 함수가 변경되어서 새로운 스택 프레임을 생성하고, mov ebp,esp로 main과 동일하다. 다음은 mov eax, [ebp+arg_0]로 ebp+arg_0의 값을 eax로 보낸다.  그 후, sub eax, [ebp+arg_4]로 ebp+arg_4의 값을 eax와 마이너스연산을 한다. 그 후 pop ebp로 ebp를 스택에서 꺼낸다.  이제 다시 main을 확인해보자.
 
-![image-20200604143456185](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200604143456185.png)
+![con3](/img/con3.png)
 
 add esp,8로 스택에 8의 공간을 정리하고 pop ebp로 ebp를 스택에서 꺼낸다. 그 후 함수가 종료된다. 
 
