@@ -6,7 +6,7 @@ categories: [system]
 comments: true 
 ---
 
-공부를 하다가 왜 64bit rop는 가젯을 먼저 넣는지 궁금해서 친구에게 물어봤더니 호출 규약을 공부해보라고 해서 이렇게 정리글을 적기로 하였다. Thankgs to Shot_gh(http://ipwn.kr/)
+공부를 하다가 왜 64bit rop는 가젯을 먼저 넣는지 궁금해서 친구에게 물어봤더니 호출 규약을 공부해보라고 해서 이렇게 정리글을 적기로 하였다. Thanks to Shot_gh(http://ipwn.kr/)
 
 ### 0x0 함수 호출 규약?
 
