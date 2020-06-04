@@ -23,7 +23,8 @@ main.c :
 
 ![but2](/img/but2.png)
 
-코드를 보면 fgets로 50byte를 입력받고, strtol함수로 정수값으로 전환 > shift 연산자를 이용해서 v4의 마지막 3비트가 right shift된다. 그리고 mprotect가 있는데 처음에는 v7의 권한을 rwx로 주었다가 이후엔 r-x로 바꾼다. 
+코드를 보면 fgets로 50byte를 입력받고, strtol함수로 정수값으로 전환 > shift 연산자를 이용해서 v4의 마지막 3비트가 right shift된다. 
+그리고 mprotect가 있는데 처음에는 v7의 권한을 rwx로 주었다가 이후엔 r-x로 바꾼다. 
 
 exploit vector : 
 
