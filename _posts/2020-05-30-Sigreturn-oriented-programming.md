@@ -39,7 +39,8 @@ read(0,buf,128);
 }
 ```
 
-위와 같은 코드가 있을 때,  우리는 SROP를 하기 위해 read에서 bof를 발생 시킨 후 eax를 조작하고 ret addr를 int 0x80으로 넘겨줘야한다.  후에 이를 이용하여 /bin/sh을 실행시킨다. 119개의 문자열을 입력하고 int 0x80으로 ret하면 sigreturn함수가 호출된다. 
+위와 같은 코드가 있을 때,  우리는 SROP를 하기 위해 read에서 bof를 발생 시킨 후 eax를 조작하고 ret addr를 int 0x80으로 넘겨줘야한다.  
+후에 이를 이용하여 /bin/sh을 실행시킨다. 119개의 문자열을 입력하고 int 0x80으로 ret하면 sigreturn함수가 호출된다. 
 
 ![srop1](/img/srop1.png)
 
