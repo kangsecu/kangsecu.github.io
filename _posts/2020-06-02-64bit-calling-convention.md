@@ -32,7 +32,7 @@ comments: true
 
 여기서 반환값은 fastcall 함수 호출 규약과 같이 스택을 사용한다.
 
-![image-20200604170745696](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200604170745696.png)
+![64bitcon](/img/64con1.png)
 
 이 이미지는 64bit 멀티코어 os 원리와 구조 책에서 추출한 이미지이다. 기회가 된다면 꼭 읽어보자.  
 
