@@ -133,3 +133,8 @@ p.interactive()
 
 아니 난 왜 대체 익스가 안되나 계속 생각해봤는데 아직도 모르겠다. 왜 계속 다른 레지스터들은 변조가 되는데 eip랑 ecx는 변조가 안될까...  결국 그냥 다시 코딩해서 해결했다. 왜 처음엔 안된걸까 
 
+++++++
+드디어 왜 안된지 알아낸 것 같다. 
+The full **vsyscall** features. This config option can be found before v4.15. This includes *Ubuntu 18.04.2*. However, *Ubuntu 18.04* does **not** use this configuration.
+그냥 내가 사용하는 우분투 버전인 18.04버전에서는 vsyscall이 구성되어 있지 않다고 한다... 이거 때문인 것 같다..
+
