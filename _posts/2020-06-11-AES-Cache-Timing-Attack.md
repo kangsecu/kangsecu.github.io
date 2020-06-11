@@ -2,7 +2,7 @@
 layout: post
 title: "AES Cache Timing Attack"
 excerpt: "Try to know AES Timing Attack & use it ~_~"
-categories: [system,crypto]
+categories: [crypto]
 comments: true 
 ---
 
