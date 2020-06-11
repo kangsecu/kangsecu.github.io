@@ -60,7 +60,7 @@ $$
 
 이번 공격의 포인트는 바로 S-Box이다.  S-Box는 Byte 값의 치환을 하기 위하여 key 확장 루틴과 여러 Subbytes변환에서 사용되는 비선형 대칭표다.
 
-![Mint & Latte_. :: Mint & Latte_. (410 Page)](https://t1.daumcdn.net/cfile/tistory/1559D6484E76DE9538)
+![sbox](/img/aes sbox.jpeg)
 
 이 이미지가 바로 AES 암호화에서 사용하는 S-Box인데, 간단하게 예를 들자면 가로와 세로의 조합에 의해서 다른 문자로 치환하는 표이다. 3C라는 값을 S-Box로 변환한다고 가정하면 행이 3과 열의 C의 행렬값으로 이를 치환해서 2E가 된다.
 
