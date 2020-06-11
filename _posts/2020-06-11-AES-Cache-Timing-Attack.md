@@ -6,8 +6,8 @@ categories: [crypto]
 comments: true 
 ---
 
-이번에는 부채널분석 중 하나인 timing attack을 통해서 AES 암호화를 분석해보자.
-
+이번에는 부채널분석 중 하나인 timing attack을 통해서 AES 암호화를 분석해보자. 이번에 다루는 내용은 CVE-2016-7440에 속해있다. 
+ 
 ### 0x0 AES?
 
 우선 AES에 대해서 간단하게 설명을 하면 128bit 암호화 블록에 128bit , 192bit, 256bit의 다양한 키 길이를 가진 대칭 암호 알고리즘이다.  AES는 구조상 캐시를 이용한 timing attack에 취약하다. 
