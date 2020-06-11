@@ -2,7 +2,7 @@
 layout: post
 title: "How to read Datasheet"
 excerpt: "Try to know datasheet & use it ~_~"
-categories: [embeded]
+categories: [Embedded]
 comments: true 
 ---
 
