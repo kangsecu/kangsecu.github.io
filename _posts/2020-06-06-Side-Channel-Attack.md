@@ -2,7 +2,7 @@
 layout: post
 title: "Side Channel Attack"
 excerpt: "Try to know Side-Channel-Attack & use it ~_~"
-categories: [system,crypto]
+categories: [crypto]
 comments: true 
 ---
 
