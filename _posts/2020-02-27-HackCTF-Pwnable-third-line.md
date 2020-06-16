@@ -51,9 +51,13 @@ exploit :
 
 binary :
 
+ ![yon1](/img/yon1.png)
  
+ 그냥 간단한 rop다. 근데 원샷으로 해결함
+ 
+ exploit :
+ ![yon2](/img/yon2.png)
 
- 
 
 ### 3. RTL_world
 
