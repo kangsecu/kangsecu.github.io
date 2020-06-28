@@ -2,7 +2,7 @@
 layout: post
 title:  "HackCTF Pwnable - fifth line"
 excerpt: "for All Clear HackCTF"
-date:   2020-06-014
+date:   2020-06-14
 categories: [wargame]
 comments: true
 ---
