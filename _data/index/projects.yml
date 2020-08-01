@@ -1,9 +1,8 @@
 - name: Printer Hacking
   descr: "Iot Printer를 네트워크의 관점에서 취약점 분석 및 보안 보고서 작성"
   
-  - name: 산업용 전력감시 기기 취약점 분석
+- name: 산업용 전력감시 기기 취약점 분석
   descr: "소프트웨어보안 국제공동연구센터에서 기기를 취약점 분석 및 POC"
-
   
 - name: Web Fuzzer
   descr: "모의해킹 업무시 사용할 웹 퍼저 제작"
