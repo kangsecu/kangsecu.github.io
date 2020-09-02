@@ -84,7 +84,7 @@ unsigned int __cdecl main(int a1, char **a2)
 
 코드를 확인해보면 특별한 값이 없으면 8181포트를 연결한다. 그럼 이제 sub_8048B87등의 기타 함수를 보자.
 
-사실상 메인으로 보여지는 sub_
+사실상 메인으로 보여지는 sub_8048A71()
 
 ```c
 unsigned int sub_8048A71()
