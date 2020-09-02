@@ -132,7 +132,7 @@ unsigned int sub_8048A71()
 
 
 
-<h3>0x2 Exploit Vector
+<h3>0x2 Exploit Vector</h3>
 
 이제는 어떻게 공격을 해보면 좋을지 생각해보자.  일단 Bof를 이용해야 하는데 NX bit가 있으므로 ROP를 이용할거다. 그리고 canary가 있으니 canary leak을 해야한다.
 
