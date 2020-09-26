@@ -140,7 +140,7 @@ mysql -u dev -p -e "select memo from DKNetM.user where memo like ‘%FIESTA%’"
 
 
 
-<h3>0x2. Auditor
+<h3>0x2. Auditor</h3>
 
 이번에는  sql인젝션 문제였다. 1번은 그냥 로그인 후  보드에서 download.php?idx= 를 넘겨주는 부분에서 타임베이스드 sql인젝션이 가능했다.  select flag from flag를 통하여 플래그를 취득했다.
 
@@ -233,7 +233,7 @@ echo $flags;
 
 이를 통해서 플래그를 취득했다.
 
-<h3>0x4. Evidence
+<h3>0x4. Evidence</h3>
 
 이 문제는 3번만 웹이 이용되었다. 암호화를 진행하는데 사용된 키를 c2서버 웹에서 받아와야 하는 문제였다.
 
