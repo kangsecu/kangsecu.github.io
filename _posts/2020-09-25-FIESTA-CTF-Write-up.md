@@ -1,8 +1,8 @@
 ---
-
 layout: post
-title: "2020 FIESTA(금융보안원) CTF Write up"
+title:  "2020 FIESTA(금융보안원) CTF Write up"
 excerpt: "Hard life"
+date:   2020-09-25
 categories: [Web,ctf]
 comments: true
 ---
