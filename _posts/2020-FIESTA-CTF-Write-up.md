@@ -13,7 +13,7 @@ N0Named팀에서 참가를 하였고, 팀명도 N0Named로 참가하였다.
 
 한 문제파일 및 url에 3가지 문제가 겹쳐있는 형식이었고, 모든 문제를 해결했는데, 웹만 wirte up을 작성하려고 한다.
 
-![image-20200926180718292](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20200926180718292.png)
+![fiesta](/img/fiesta1.png)
 
 <h3>0x0. YoUrAT
 </h3>
