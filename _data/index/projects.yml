@@ -1,20 +1,17 @@
 - name: Printer Hacking
-  descr: "Iot Printer를 네트워크의 관점에서 취약점 분석 및 보안 보고서 작성"
+  descr: "Iot Printer를 네트워크의 관점에서 취약점 분석"
   
 - name: smartfactory vulnerability analysis
-  descr: "소프트웨어보안 국제공동연구센터에서 산전 기기를 취약점 분석 및 POC"
+  descr: "소프트웨어보안 국제공동연구센터에서 산전 기기 취약점 분석"
   
 - name: Web Fuzzer
   descr: "모의해킹 업무시 사용할 웹 퍼저 제작"
-  
-- name: php core analysis
-  descr: php언어의 core 엔진을 분석 및 보고서 작성
   
 - name: Web Pentesting Test
   descr: 모의 침투 사이트 제작 및 취약점 분석
 
 - name: N0Named Wargame
-  descr: "N0Named팀에서 보안문제를 제작 및 사이트 업로드"
+  descr: "N0Named팀에서 보안문제를 제작 및 업로드"
   website: http://ctf.no-named.kr:1234
  
   
