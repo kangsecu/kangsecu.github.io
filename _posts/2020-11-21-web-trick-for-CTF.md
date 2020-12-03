@@ -119,6 +119,7 @@ strip_tags 함수의 트릭 > strip_tags("<a/udio>") >  a 태그로 인식
 언더바 우회 > __main__같은걸 호출할때 .main. , %20main%20 등으로 우회 가능
 system 함수 필터링 > exec(), shell_exec(), passthru() 등으로 웹쉘
 parse_url등의 url을 파싱하는 함수> ssrf 등으로 연계 가능
+함수들 필터링 우회 >   l$@s 등으로 우회
 ```
 
 계속해서 ctf나 공부를 하면서 얻는 지식들을 정리할 예정
