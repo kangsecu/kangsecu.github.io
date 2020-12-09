@@ -7,44 +7,35 @@ client_socket = socket(AF_INET, SOCK_STREAM)
 client_socket.connect(('127.0.0.1',7878))
 
 #==================connect====================
-block = [0x00,0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08,0x09,0x0a,0x0b,0x0c,0x0d,0x0e,0x0f]
 
+plaintext = 'welcome to eureka porject!'
+pt_block = []
+
+for i in range(len(plaintext)):
+	pt_block.appeng(ord(plaintext[i]))
+
+#keyshared!
 key = [0x00,0x11,0x22,0x33,0x44,0x55,0x66,0x77,0x88,0x99,0xaa,0xbb,0xcc,0xdd,0xee,0xff]
 
-in_state = block2state(block)
-key_state = block2state(key)
+#Encryption
+print("\n[*] Encryption now!")
+enc_block = ECB_Enc(pt_block,key)
+print("\n[*] Ciphertext : ")
 
-print("\n[*] plaintext = ")
-hex_print(in_state)
+for i in range(len(enc_block)):
+	print(enc_block[i], end =' ')
+print("")
 
-print("\n[*] key = ")
-hex_print(key_state)
+#block -> string
+enc_string = block2str(enc_block)
+print("\n[*] enc_string : ", enc_string)
 
-###### Encryption ######
-print("\n[*] Encryption!!!")
-enc_state = AES_ENC(in_state, key_state)
-print("\n[*] ciphertext = ")
-hex_print(enc_state)
-
-###### state -> block -> string -> bytes
-
-#state to block
-enc_block = state2block(enc_state)
-print("\n[*] enc_block= ")
-hex_block_print(enc_block)
-
-#block to string
-enc_string= block2str(enc_block)
-print("\n[*] enc_string = ")
-print(enc_string)
-
-#string to bytes
+#string -> bytes
 data = enc_string.encode()
-print("\n[*] data = ")
-print (data)
+print("\n[*] data : ",data)
 
-###### send ######
-print("\n[*] send!!")
+#send to server
+print("\n[*] Send to server!")
 client_socket.sendall(data)
 
 #===============disconnect=======================
