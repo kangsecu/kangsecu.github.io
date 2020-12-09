@@ -246,7 +246,7 @@ def AES_Round_Dec(state,rkey):
 	new_state5 = InvMixColumns(new_state4) 
 	return new_state5
 
-def AES_Dec(pt, key): 
+def AES_ENC(pt, key): 
 	rkey = key_schedule_Enc(key) 
 	state = copy.deepcopy(pt) 
 	new_state = AddRoundKey(state,rkey[10]) 
