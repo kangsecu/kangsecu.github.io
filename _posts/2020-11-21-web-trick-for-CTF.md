@@ -5,6 +5,7 @@ excerpt: "Try to know trick & use it ~_~"
 date: 2020-11-21
 categories: [Web]
 comments: true 
+
 ---
 
 이번에는 ctf를 위한 다양한 웹 트릭 및 우회방법들을 간단하게나마 정리를 해보려고한다. 
@@ -123,3 +124,10 @@ parse_url등의 url을 파싱하는 함수> ssrf 등으로 연계 가능
 ```
 
 계속해서 ctf나 공부를 하면서 얻는 지식들을 정리할 예정
+
+<h3>0x5. SSRF</h3>
+
+이번에 Bamboo CTF를 진행하면서 ssrfrog문제를 풀다가 발견한건데, 이번 문제 같은 경우는 중복문자를 사용할 수 없는 조건이 걸려있었는데, 이걸
+
+http://example.com이라는 url이 있다고 가정하면  HtTp:Example.coM 으로 우회를 하고, 그 뒤에  Co0o0l-fla4a4g.com을 아스키문자로 변환하여 인코딩되는 취약점을 이용해서 우회하는 문제였다.  https://github.com/kangsecu/ctf-writeups-2021/tree/master/bamboo-fox/ssrfrog 이 글에 작성자분이 정리를 잘 해주셔서 재미있게 읽었다.
+
