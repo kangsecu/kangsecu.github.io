@@ -5,15 +5,16 @@
   date : March 2021 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
   job : internship
   
-- name: CSSA, Iotcube
-  link: https://www.iotcube.com/
-  date: July 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  job: internship
-  
 - name: CCSLAB, Korea Univ
   link: https://ccs.korea.ac.kr/
   date: September 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
   job: undergraduate student researcher
+  
+- name: CSSA, Iotcube
+  link: https://www.iotcube.com/
+  date: July 2020 - September 2020
+  job: internship
+
   
 - name: N0Named
   link: http://n0-named.github.io
