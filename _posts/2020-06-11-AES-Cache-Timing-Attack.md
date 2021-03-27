@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "AES Cache Timing Attack(CVE-2016-7440)"
+title: "CVE-2016-7440 1day Analysis(AES Cache Timing Attack)"
 excerpt: "Try to know AES Timing Attack & use it ~_~"
-categories: [crypto]
+categories: [crypto,CVE]
 comments: true 
 ---
 
