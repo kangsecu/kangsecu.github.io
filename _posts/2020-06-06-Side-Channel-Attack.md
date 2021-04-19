@@ -19,7 +19,6 @@ comments: true
 * Power Analysis - 연산 중에 HW가 소비하는 전력을 측정하여 분석
 * Differential Fault Attack - 의도적으로 오류를 발생하는 연산을 하여 분석
 * Electromagnetic Attack - 시스템의 HW가 외부로 방출하는 전자기파를 이용하여 분석
-* Row Hammer Attack -  인접한 메모리에 접근해서 메모리 영역을 수정하는 공격
 
 등등 다양한 종류가 있다. 뭐 추가적으로 음향을 이용한 공격도 있고, 다양하지만 우선은 이것들만 적는다.
 
@@ -112,17 +111,7 @@ SEMA에 취약한 암호는 키의 비트가 1인지 0인지에 대하여 다른
 반대로 DEMA는 대칭 암호를 공격하는데 더욱 효과적이다. 또한 DEMA는 공격 대상에 대한 많은 지식을 필요로 하지 않는다.
 
 
-
-### 0x4 Row Hammer Attack
-
-로우 해머 공격은  DIMM 메모리 모듈, 즉 HW에 존재하는 취약점으로, DRAM에서 cell 밀집도가 높아져서 한 row에 대한 반복적인 접근을 할 때 인접한 메모리 row에 bit flip이 발생하는 취약점이다. 
-
-bit flip이란 동일한 메모리 행(row)에 반복적인 접근과정을 통하여 전기방해가 발생하고, 해당 메모리 행에 인접해 있는 메모리 행에 영향을 미치는 현상을 말한다.
-
-이는 추가적으로 RAMbleed Attack에 기반이 되기도 한다.
-
-
-### 0x5 Reference
+### 0x4 Reference
 
 부채널분석을 공부하면서 도움이 많이 된 자료들을 모아봤다. 앞으로 찾으면 다음 글이던 이번글에 더욱 추가할 예정
 
@@ -137,10 +126,4 @@ https://research.kudelskisecurity.com/2013/12/13/timing-attacks-part-1/
 Power Analysis
 
 https://anysilicon.com/side-channel-attacks-differential-power-analysis-dpa-simple-power-analysis-spa-works/
-
-Row Hammer Attack
-
-https://github.com/google/rowhammer-test
-
-https://www.blackhat.com/docs/us-15/materials/us-15-Seaborn-Exploiting-The-DRAM-Rowhammer-Bug-To-Gain-Kernel-Privileges.pdf
 
