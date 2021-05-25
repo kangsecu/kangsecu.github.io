@@ -4,7 +4,7 @@ title:  "Data Structure - BFS,DFS"
 excerpt: "Try to know DFS, BFS & use it~_~"
 date:   2019-09-18
 categories: [C programming]
-comments: true
+comments: false
 ---
 
 BFS - 인접 리스트
