@@ -4,7 +4,7 @@ title:  "Data Structure - sorting"
 excerpt: "Try to know sorting & use it~_~"
 date:   2019-08-08
 categories: [C programming]
-comments: true
+comments: false
 ---
 
 bubble sorting
