@@ -4,7 +4,7 @@ title:  "Data Structure - Prim MST Algorithm"
 excerpt: "Try to know Prim MST  & use it~_~"
 date:   2019-09-28
 categories: [C programming]
-comments: true
+comments: false
 ---
 
 prim MST Algorithm
