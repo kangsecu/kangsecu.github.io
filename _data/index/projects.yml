@@ -3,13 +3,7 @@
 
 - name: Embedded vulnerability analysis
   descr: "산전 기기 취약점 분석"
-
-- name: S사 웹사이트 모의해킹
- 
-- name: S사 운영체제 모의해킹
-
-- name: N사 블록체인 게임 모의해킹 
-
+  
 - name: Web Fuzzer
   descr: "모의해킹 업무시 사용할 웹 퍼저 제작"
 
