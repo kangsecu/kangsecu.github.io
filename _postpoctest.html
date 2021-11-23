@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+        h1 {
+            font-size: 1.4em;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>iframe on <span id="originOutput"></span></h1>
+
+<p>
+    asdfasdf
+</p>
+
+<p>poc test</p>
+
+<p>
+    poc test
+</p>
+
+<script>
+    document.getElementById('originOutput').innerText = window.location.origin;
+
+    document.body.addEventListener('click', function () {
+
+        //window.open('javascript:var elem = document.createElement("p");elem.innerHTML = "<b>Executed JS in parent origin: "+window.location.origin+"</b>"; document.body.append(elem);alert("XSS in doc.domain: "+document.domain+", win.origin: "+window.location.origin)');
+
+        window.open("javascript:alert('Executed JS in target '+window.location.origin)");
+
+         window.open("https://google.com");
+    });
+</script>
+
+</body>
+</html>
