@@ -16,7 +16,7 @@ ROP를 하기에 가젯이 불충분할 경우 주로 사용 > 많은 가젯이 
 
 
 
-### 0x1. singal
+### 0x1. signal
 
 SROP는 sigreturn으로 쉘을 따는데, sigreturn을 syscall table에서 찾아보면 eax로 119를 넘겨주면 실행되고, 파라미터로는 unsigend long이 요구된다.
 
