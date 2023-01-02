@@ -124,7 +124,7 @@ lrwxrwxrwx  totally_safe_path-stashed -> /
 
 이렇게 작동 한다. 이를 좀 더 직관적으로 보면 아래 이미지와 같다. 
 
-![image-20230102181340481](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20230102181340481.png)
+![symlink_swap](/img/symswap.png)
 
 최종적으로 이렇게 1번과 2번이 차례대로 계속해서 교차반복 되는 것이다. 
 
@@ -193,7 +193,7 @@ drwxr-xr-x  /var/lib/docker/overlay2/CONTAINER_ID/merged/totally_safe_path-stash
 
 직관적으로 표현하면 아래 그림과 같다.
 
-![image-20230102192128990](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20230102192128990.png)
+![read](/img/readimage.png)
 
 도커 컨테이너 내부에 위치한 /flag파일을 로컬로 읽어드린다. 
 
@@ -238,7 +238,7 @@ done
 
 이번에도 B상태로 `FollowSymlinkInScope` 함수가 수행되고, 복사가 일어나기 직전에 A 상태가 된다면 레이스 컨디션 공격에 성공한다. 직관적으로 보면 아래와 같다. 
 
-![image-20230102192011390](C:\Users\kangs\AppData\Roaming\Typora\typora-user-images\image-20230102192011390.png)
+![write](/img/writeimage.png)
 
 호스트 로컬에 존재하는 파일인 `/flag`를 도커 컨테이너 내부의 심볼릭 링크를 통해 작성한다. 
 
