@@ -257,9 +257,7 @@ done
 이 글을 작성하면서 참고한 레퍼런스다. 아마 혼자 분석을 했다면 훨신 어려웠을 것 같은데 늘 고마운 분들께 도움을 받는다. 
 
 * https://core-research-team.github.io/2021-04-01/Docker-Race-Condition-Vulnerability-CVE-2018-15664 Thanks to 이동현(http://donghyunlee.me/)
-
 * https://velog.io/@groompang/CVE-2018-15664 
-
 * https://www.lazenca.net/display/TEC/09.Race+condition
 * https://bugzilla.suse.com/show_bug.cgi?id=1096726
 
