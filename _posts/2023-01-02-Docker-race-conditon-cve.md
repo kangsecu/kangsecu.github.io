@@ -2,7 +2,7 @@
 layout: post
 title: "Docker Race Condition(CVE-2018-15664) Analysis"
 excerpt: "Try to know CVE-2018-15664"
-categories: [system,CVE]
+categories: [system,1-day]
 comments: true 
 ---
 
