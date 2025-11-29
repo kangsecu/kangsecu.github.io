@@ -42,4 +42,4 @@ Skills
 <hr>
 * Machine Learning(ML)
 * Software Obfuscation
-* hacking(Web, System)
+* Hacking(Web, System)
