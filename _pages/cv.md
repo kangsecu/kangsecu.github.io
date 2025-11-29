@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Seoul National University, (expected)
-* M.S. in Korea University, 2026
-* B.S. in Kookmin University, 2024
+* Ph.D in Seoul National University, Department of Computer Science and Engineering, (expected)
+* M.S. in Korea University, Department of Information Security, 2026
+* B.S. in Kookmin University, Department of Information Security, Cryptography and Mathematics, 2024
   
 
 Publications
