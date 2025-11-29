@@ -27,8 +27,6 @@
       </div>
     {% endif %}
     
-    {% comment %} 
-    {% endcomment %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.path contains '_publications' or post.url contains 'publications' %}
         {{ title }}
@@ -44,17 +42,21 @@
     {% endif %}
     
     <p class="archive__item-excerpt" itemprop="description">
+      {% comment %} 
+      {% endcomment %}
+      
+      {% if post.citation %}
+        {{ post.citation }}
+      {% endif %}
+
+      {% if post.citation and post.venue %}<br>{% endif %}
+
       {% if post.venue %}
         <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
       {% endif %}
 
-      {% if post.venue and post.citation %}<br>{% endif %}
-
-      {% if post.citation %}
-        {{ post.citation }}
-        {% if post.paperurl %}
-          <br><a href="{{ post.paperurl }}">Download Paper</a>
-        {% endif %}
+      {% if post.paperurl %}
+        <br><a href="{{ post.paperurl }}">Download Paper</a>
       {% endif %}
     </p>
     </li>
