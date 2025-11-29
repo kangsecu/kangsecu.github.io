@@ -2,7 +2,7 @@
 title: "ObfSwin: Transformer-based Multi-class Obfuscation Classification for Windows Portable Executable"
 collection: publications
 category: conferences
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2025-12-18-ObfSwin
 date: 2025-12-18
 venue: 'The 9th International Conference on Mobile Internet Security(MobiSec)'
 slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
