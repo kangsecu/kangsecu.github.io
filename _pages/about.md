@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, Im Junhyuk Kang(강준혁)"
+title: "Hello, I'm Junhyuk Kang(강준혁)"
 author_profile: true
 redirect_from: 
   - /about/
