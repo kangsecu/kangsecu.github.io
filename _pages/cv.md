@@ -24,9 +24,9 @@ Publications
 
 Patents
 ======
-* Junhyuk Kang, Jiwon Lee, Wonsuk Choi, and Dong Hoon Lee, "Method for Identification and Classification of Binary Obfuscation Techniques based on 3D Markov Matrix," Republic of Korea Patent, Application No. 10-2025-0020400, Pending.
-* Jinhyun Baek, Jiwon Lee, Junhyuk Kang, Dong Hoon Lee, and Wonsuk Choi, "Method for Strengthening LLM Defense Mechanism against Jailbreak Attacks based on Role Subdivision Learning," Republic of Korea Patent, Application No. 10-2024-0190432, Pending.
-* Junhyuk Kang, Jiwon Lee, Jinhyun Baek, Dong Hoon Lee, and Wonsuk Choi, "Method for Generating Web Application Firewall Detection Ruleset based on Large Language Model," Republic of Korea Patent, Application No. 10-2024-0167813, Pending.
+* <b><u>Junhyuk Kang<u><b>, Jiwon Lee, Wonsuk Choi, and Dong Hoon Lee, "Method for Identification and Classification of Binary Obfuscation Techniques based on 3D Markov Matrix," Republic of Korea Patent, Application No. 10-2025-0020400, Pending.
+* Jinhyun Baek, Jiwon Lee, <b><u>Junhyuk Kang<u><b>, Dong Hoon Lee, and Wonsuk Choi, "Method for Strengthening LLM Defense Mechanism against Jailbreak Attacks based on Role Subdivision Learning," Republic of Korea Patent, Application No. 10-2024-0190432, Pending.
+* <b><u>Junhyuk Kang<u><b>, Jiwon Lee, Jinhyun Baek, Dong Hoon Lee, and Wonsuk Choi, "Method for Generating Web Application Firewall Detection Ruleset based on Large Language Model," Republic of Korea Patent, Application No. 10-2024-0167813, Pending.
 
 Scholarships and Awards
 ======
