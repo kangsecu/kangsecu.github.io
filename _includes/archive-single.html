@@ -27,7 +27,9 @@
       </div>
     {% endif %}
     
-    <h3 class="archive__item-title" itemprop="headline">
+    {% comment %} 
+    {% endcomment %}
+    <h2 class="archive__item-title" itemprop="headline">
       {% if post.path contains '_publications' or post.url contains 'publications' %}
         {{ title }}
       {% elsif post.link %}
@@ -35,7 +37,7 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </h3>
+    </h2>
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -49,7 +51,7 @@
       {% if post.venue and post.citation %}<br>{% endif %}
 
       {% if post.citation %}
-        Recommended citation: {{ post.citation }}
+        {{ post.citation }}
         {% if post.paperurl %}
           <br><a href="{{ post.paperurl }}">Download Paper</a>
         {% endif %}
