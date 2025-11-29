@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 I am a Ph.D. student in **Network Convergence & Security Laboratory**([MMLAB](https://mmlab.snu.ac.kr/)), Department of Computer Science and Engineering, Seoul National University. 
-I am advised by Prof. Taekyoung (Ted) Kwon.
+I am advised by Prof. (Taekyoung (Ted) Kwon)[https://mmlab.snu.ac.kr/~tk/].
 
 My research interests primarily lie in **AI Security** and **Application Privacy**. More specifically, I focus on security in distributed learning environments, as well as privacy protection within network and web environments.
 
