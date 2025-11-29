@@ -24,13 +24,13 @@ repository               : "kangsecu/kangsecu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Junhyuk Kang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Ph.D. student at MMLab, SNU"
+  location         : "Seoul, South Korea"
+  employer         : "Seoul National University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "kangsecu@mmlab.snu.ac.kr" 
 
   # Academic websites
   academia         : # URL
