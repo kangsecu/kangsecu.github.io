@@ -15,11 +15,14 @@ Publication
 
 Journals
 ------
-- **Junhyuk Kang**, Jiwon Lee, Hongjoo Jin, Dong Hoon Lee, and Wonsuk Choi. (2025). Classification of Binary Obfuscation Techniques in Windows Binaries Using a 3D Markov Matrix. Journal of The Korea Institute of Information Security and Cryptology, 35(3), 563-572.
+Classification of Binary Obfuscation Techniques in Windows Binaries Using a 3D Markov Matrix
+**Junhyuk Kang**, Jiwon Lee, Hongjoo Jin, Dong Hoon Lee, and Wonsuk Choi.
+Journal of The Korea Institute of Information Security and Cryptology, 35(3), 563-572., 2025
 
 Conference
 ------
 ObfSwin: Transformer-based Multi-class Obfuscation Classification for Windows Portable Executable
+
 **Junhyuk Kang**, Jaewoo Lee, Wonsuk Choi, and Dong Hoon Lee
 The 9th International Conference on Mobile Internet Security(MobiSec), 2025
 
