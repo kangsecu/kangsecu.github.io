@@ -34,7 +34,8 @@ Patents
 Scholarships and Awards
 ======
 <hr>
-* Research Fellowship, <b><u>Brain Korea 21 Plus (BK21+)</u></b>, Ministry of Education (2024–2025)
+* Research Fellowship, <b><u>Brain Korea 21 Plus (BK21+)</u></b>, Ministry of Education, 2024–2025
+* <b><u>Best 10, Best of the Best 10th</u></b>, MSIT, Korea (Prize: approx $7,000), 2022
 
 
 Skills
