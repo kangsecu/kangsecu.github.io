@@ -40,6 +40,6 @@ Scholarships and Awards
 Skills
 ======
 <hr>
-* Machine Learning(ML)
+* AI / ML
 * Software Obfuscation
 * Hacking(Web, System)
