@@ -15,14 +15,13 @@ Education
 * Ph.D in Seoul National University, Department of Computer Science and Engineering, (expected)
 * M.S. in Korea University, Department of Information Security, 2026
 * B.S. in Kookmin University, Department of Information Security, Cryptography and Mathematics, 2024
-  
 
 Publications
 ======
 <hr>
-  <ul>{% for post in site.publications reversed %}
+  {% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}
 
 Patents
 ======
