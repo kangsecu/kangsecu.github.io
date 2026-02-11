@@ -15,5 +15,7 @@ In addition to security research, I have a strong passion for **hacking** and **
 
 Recent
 =====
-- Recently, I won the **2nd Place** at **FIESTA 2025** (Financial Security Threat Analysis Contest) hosted by the Financial Security Institute (FSI), receiving a prize of approximately **$1,400**.
+- Graduated **Summa Cum Laude** with a Master's degree from the Graduate School of Information Security at Korea University.
+- Received the **TTA Best Paper Award** at **MobiSec 2025** for the first-authored paper, "ObfSwin: Transformer-based Multi-class Obfuscation Classification for Windows Portable Executable."
+- I won the **2nd Place** at **FIESTA 2025** (Financial Security Threat Analysis Contest) hosted by the Financial Security Institute (FSI), receiving a prize of approximately **$1,400**.
 - I competed in **DEF CON CTF 33, 2025** as a member of Team **Cold Fusion**. We advanced to the finals after ranking 8th in the qualifiers and ultimately finished in 10th place in the final competition.  
